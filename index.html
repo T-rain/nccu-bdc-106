@@ -1,0 +1,132 @@
+<!doctype html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+	<title></title>
+
+	<link rel="stylesheet" href="css/reveal.css">
+	<link rel="stylesheet" href="css/theme/league.css">
+	
+	<!-- Theme used for syntax highlighting of code -->
+	<link rel="stylesheet" href="lib/css/zenburn.css">
+
+	<!-- Printing and PDF exports -->
+	<script>
+
+		var link = document.createElement('link');
+		link.rel = 'stylesheet';
+		link.type = 'text/css';
+		link.href = window.location.search.match(/print-pdf/gi) ? 'css/print/pdf.css' : 'css/print/paper.css';
+		document.getElementsByTagName('head')[0].appendChild(link);
+	</script>
+	<!-- if you want to print,add /?print-pdf -->
+	<!-- <style>
+		@page {
+			size: 1210px 681px;
+			margin: 0;
+		}
+
+		@media print {
+			.remark-slide-scaler {
+				width: 100% !important;
+				height: 100% !important;
+				transform: scale(1) !important;
+				top: 0 !important;
+				left: 0 !important;
+			}
+		}
+	</style> -->
+
+
+</head>
+
+<body>
+	<div class="reveal">
+		<div id="slideDiv" class="slides">
+			<!-- <section data-markdown="slide.md"
+			         data-separator="\n\n\n"
+					 data-separator-vertical="^---" >
+			</section> -->
+		</div>
+	</div>
+	<script>
+		//change the n 
+		var n = 0;
+		var indexArray = Array.apply(null, Array(n+1)).map((x, i) => i);
+		indexArray.forEach(element => {
+			document.getElementById("slideDiv").innerHTML += "<section data-markdown=\"slide-"+element+".md\" data-separator=\"\n\n\n\" data-separator-vertical=\"^---\" ></section>"
+		});
+
+	</script>
+
+	<script src="lib/js/head.min.js"></script>
+	<script src="js/reveal.js"></script>
+
+	<script>
+		// More info https://github.com/hakimel/reveal.js#configuration
+		Reveal.initialize({
+			// Display controls in the bottom right corner
+			controls: true,
+			// Display a presentation progress bar
+			progress: true,
+
+			// Display the page number of the current slide
+			slideNumber: false,
+
+			// Push each slide change to the browser history
+			history: true,
+
+			// Enable keyboard shortcuts for navigation
+			keyboard: true,
+
+			// Enable the slide overview mode
+			overview: true,
+
+			// Vertical centering of slides
+			center: true,
+
+			// Enables touch navigation on devices with touch input
+			touch: true,
+
+			// Enable slide navigation via mouse wheel
+			mouseWheel: true,
+
+			// Hides the address bar on mobile devices
+			hideAddressBar: true,
+
+			// Transition style
+			transition: 'convex', // none/fade/slide/convex/concave/zoom
+
+			// Transition speed
+			transitionSpeed: 'default', // default/fast/slow
+
+			//Transition style for full page slide backgrounds
+			backgroundTransition: 'convex', // none/fade/slide/convex/concave/zoom
+
+			// Number of slides away from the current that are visible
+			viewDistance: 3,
+
+			dependencies: [{
+				src: 'plugin/markdown/marked.js'
+			}, {
+				src: 'plugin/markdown/markdown.js'
+			},{ src: 'plugin/zoom-js/zoom.js',
+				async: true
+			},{
+				src: 'plugin/math/math.js',
+				async: true
+			}, {
+				src: 'plugin/highlight/highlight.js',
+				async: true,
+				callback: function() {
+					hljs.initHighlightingOnLoad();
+				}
+			}]
+		});
+	</script>
+</body>
+
+</html>
