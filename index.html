@@ -46,15 +46,15 @@
 <body>
 	<div class="reveal">
 		<div id="slideDiv" class="slides">
-			<!-- <section data-markdown="slide.md"
-			         data-separator="\n\n\n"
-					 data-separator-vertical="^---" >
+			<!-- <section data-markdown="slide-example.md"
+			         data-separator="---"
+					 data-separator-vertical="^----" >
 			</section> -->
 		</div>
 	</div>
 	<script>
-		//change the n 
-		var n = 0;
+		// change the n 
+		var n = 1;
 		var indexArray = Array.apply(null, Array(n+1)).map((x, i) => i);
 		indexArray.forEach(element => {
 			document.getElementById("slideDiv").innerHTML += "<section data-markdown=\"slide-"+element+".md\" data-separator=\"\n\n\n\" data-separator-vertical=\"^---\" ></section>"
