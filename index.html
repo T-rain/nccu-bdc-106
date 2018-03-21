@@ -54,7 +54,7 @@
 	</div>
 	<script>
 		// change the n 
-		var n = 1;
+		var n = 2;
 		var indexArray = Array.apply(null, Array(n+1)).map((x, i) => i);
 		indexArray.forEach(element => {
 			document.getElementById("slideDiv").innerHTML += "<section data-markdown=\"slide-"+element+".md\" data-separator=\"\n\n\n\" data-separator-vertical=\"^---\" ></section>"
@@ -108,6 +108,8 @@
 
 			// Number of slides away from the current that are visible
 			viewDistance: 3,
+
+			rollingLinks: true,
 
 			dependencies: [{
 				src: 'plugin/markdown/marked.js'

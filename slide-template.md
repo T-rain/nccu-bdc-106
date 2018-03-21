@@ -1,16 +1,23 @@
-<p style="font-size:150px;"> goo.gl/LiNPag </p>
+### 企業資料通訊TA 1
 
 ---
 
-### 企業資料通訊TA 1
+<p style="font-size:150px;"> goo.gl/LiNPag </p>
 
 ---
 
 目標：
 
-* Static Route 設定
+* [PT]Static Route 設定
 * CSE 7
 * Install SSH Server
+
+---
+
+請大家先下載 
+* [Netcad 1.2.4.4](https://1387926.netacad.com/courses/639250/pages/launch-chapter-1) 
+* [Netcad 1.2.4.5](https://1387926.netacad.com/courses/639250/pages/launch-chapter-1) 
+* [Netcad 2.3.2.5](https://1387926.netacad.com/courses/639250/pages/launch-chapter-2)
 
 ---
 

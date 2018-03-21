@@ -23,9 +23,9 @@
 ---
 
 目標：
-* 了解 Packet Tracer 環境
+* [PT]了解 Packet Tracer 環境
 * 了解 WAN/LAN
-* 嘗試CISCO IOS
+* [PT]嘗試CISCO IOS
 
 ---
 
@@ -43,7 +43,15 @@
 
 ---
 
-* 了解 Packet Tracer 環境
+### [PT]了解 Packet Tracer 環境
+
+---
+
+### 了解 WAN/LAN
+
+---
+
+### [PT]嘗試CISCO IOS
 
 ---
 
