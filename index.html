@@ -54,7 +54,7 @@
 	</div>
 	<script>
 		// change the n 
-		var n = 4;
+		var n = 5;
 		var indexArray = Array.apply(null, Array(n+1)).map((x, i) => i);
 		indexArray.forEach(element => {
 			document.getElementById("slideDiv").innerHTML += "<section data-markdown=\"slide-"+element+".md\" data-separator=\"\n\n\n\" data-separator-vertical=\"^---\" ></section>"
@@ -98,13 +98,13 @@
 			hideAddressBar: true,
 
 			// Transition style
-			transition: 'convex', // none/fade/slide/convex/concave/zoom
+			transition: 'concave', // none/fade/slide/convex/concave/zoom
 
 			// Transition speed
 			transitionSpeed: 'default', // default/fast/slow
 
 			//Transition style for full page slide backgrounds
-			backgroundTransition: 'convex', // none/fade/slide/convex/concave/zoom
+			backgroundTransition: 'none', // none/fade/slide/convex/concave/zoom
 
 			// Number of slides away from the current that are visible
 			viewDistance: 3,
@@ -128,6 +128,8 @@
 				}
 			}]
 		});
+
+		//multiplex notes notes-server print-pdf search 
 	</script>
 </body>
 

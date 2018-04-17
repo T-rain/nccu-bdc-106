@@ -2,15 +2,7 @@
 
 ---
 
-<p style="font-size:150px;"> goo.gl/LiNPag </p>
-
----
-
-目標：
-
-* [PT]Static Route 設定
-* CSE 7
-* Install SSH Server
+<p style="font-size:150px;"> ppt.cc/fl8pwx </p>
 
 ---
 
@@ -23,6 +15,15 @@
 
 前次複習:
 * Static Route 設定
+* CSE 7
+* Install SSH Server
+
+---
+
+
+目標：
+
+* [PT]Static Route 設定
 * CSE 7
 * Install SSH Server
 

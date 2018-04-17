@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <div class="unlogin_page">
+        <div style="display: flex; align-items:center">
+            <p>user:</p>
+            <input id="in_user" type="text"/>
+        </div>
+        <div style="display: flex; align-items:center">
+            <p>password:</p>
+            <input id="in_pass" type="text"/>
+        </div>
+        <button onclick="login()">login</button>
+    </div>
+    <div class="login_page" style="display:none">
+        <button onclick="logout()">logout</button>
+        <p id ="pg"></p>
+        <p>Please tell me your age: </p>
+        <input id="in_age" type="text">
+        <button onclick="hi()">submit</button>
+    </div>
+
+    <hr/>  
+    <p>You can try to login, and the information will keep in cookie.Please don't input real one</p>
+    <p>You can execute "document.cookie" to find the information in the console(Chrome:Command+Option+I/F12 or Control+Shift</p>
+    <hr/> 
+    <p>XSS example:</p> 
+    <p>Add following line in the input cell after login</p>
+    <p style="color:gray">&ltimg src=a onerror="alert(document.cookie)"&gt</p>
+    <script type="text/javascript" src="vul-client-innerhtml.js"></script>
+</body>
+</html>

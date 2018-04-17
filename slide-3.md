@@ -394,7 +394,7 @@ Cyclic redundancy checks (CRC)等方法
 
 ---
 
-![](images/4-3-1.png)
+![](images/3-6-1.png)
 
 ---
 
