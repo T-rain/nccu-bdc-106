@@ -5,7 +5,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-	<title></title>
+	<title>NCCU-BDC-106</title>
 
 	<link rel="stylesheet" href="css/reveal.css">
 	<link rel="stylesheet" href="css/theme/league.css">
@@ -39,7 +39,15 @@
 			}
 		}
 	</style> -->
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-78496808-2"></script>
+	<script>
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
 
+	gtag('config', 'UA-78496808-2');
+	</script>
 
 </head>
 
@@ -54,7 +62,7 @@
 	</div>
 	<script>
 		// change the n 
-		var n = 7;
+		var n = 8;
 		var indexArray = Array.apply(null, Array(n+1)).map((x, i) => i);
 		indexArray.forEach(element => {
 			document.getElementById("slideDiv").innerHTML += "<section data-markdown=\"slide-"+element+".md\" data-separator=\"\n\n\n\" data-separator-vertical=\"^---\" ></section>"
