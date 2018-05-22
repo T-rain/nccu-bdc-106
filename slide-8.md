@@ -18,7 +18,7 @@
 
 ---
 
-<a href="#/6/21">Virtual Box</a>
+<a href="#/7/8">Virtual Box</a>
 
 1. <p class="fragment">Virtual Box 是什麼軟體? </p>
 2. <p class="fragment">它有什麼用途呢? </p>
@@ -199,8 +199,8 @@ sudo systemctl restart ssh
 
 ---
 
-當然也有可能像中午的時候，有人是設定檔沒寫好或是  
-之後的Port forward問題，這些都可能會造成問題
+有人是設定檔沒寫好或是之後的Port forward問題  
+這些都可能會造成問題
 
 ---
 
