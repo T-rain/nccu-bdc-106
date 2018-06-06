@@ -38,6 +38,14 @@
 
 ---
 
+<a href="#/10/27">Portrainer vs Mysql</a>
+
+1. <p class="fragment">Docker到VM的Forward??</p>
+1. <p class="fragment">VM到Host的Forward??</p>
+1. <p class="fragment">我們有設定Mysql的使用者嗎?</p>
+
+---
+
 目標：
 
 * CSE 8
