@@ -224,7 +224,7 @@ exit
     deny 192.168.1.32 0.0.0.15
     permit any
     exit
-    line vty 0
+    line vty 0 15
     access-class block15 in
     exit
     ```
@@ -237,7 +237,7 @@ exit
     enable
     config t
     int vlan 50
-    ip address XXX 255.255.255.240
+    ip address 192.168.1.XXX 255.255.255.240
     no shutdown 
     exit 
     ip default-gateway 192.168.1.49
