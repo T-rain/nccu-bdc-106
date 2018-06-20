@@ -264,7 +264,7 @@ exit
     ```
     * Configure the switch ports to automatically learn the two allowed MAC addresses and record the addresses in the running configuration.
     ```
-    switchport port-security mac-add sticky
+    switchport port-security mac-address sticky
     ```
     * Configure the switch ports so that, ... a violation has occurred is not required.
     ```
@@ -314,6 +314,11 @@ exit
 
 ```
 #Branch
+#設定RIP模式
+enable
+config t
+router rip
+version 2
 #do show ip route connected
 network 10.1.1.0
 network 192.168.3.0
